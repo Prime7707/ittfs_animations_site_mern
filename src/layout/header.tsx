@@ -15,7 +15,7 @@ const Header = () => {
 
 	const handleLogin = async () => {
 		try {
-			await login({ username: "user11", password: "12345678" });
+			await login({ username: "user", password: "12345678" });
 			// ✅ login toast already handled in AuthContext
 		} catch (error) {
 			console.error("Login failed", error);
